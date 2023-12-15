@@ -11,6 +11,8 @@ body {
 }
 h1 {
   letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #252525;
 }
 
 #menu {
@@ -55,10 +57,6 @@ nav {
 .nav-toggle-label {
   padding-right: 5px;
   font-size: 2rem;
-}
-
-#menu li {
-  margin-bottom: 1rem;
 }
 
 main {
@@ -128,6 +126,7 @@ footer {
 
   #menu li a {
     font-size: 20px;
+    color: #252525;
   }
 
   .nav-toggle-label {
