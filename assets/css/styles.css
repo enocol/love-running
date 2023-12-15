@@ -64,7 +64,7 @@ nav {
 main {
   min-height: 100vh;
   color: red;
-  margin-top: 3.3rem;
+  margin-top: 3rem;
   background-color: lightskyblue;
 }
 
@@ -131,12 +131,20 @@ footer {
   }
 
   main {
-    margin-top: 7%;
+    margin-top: 3.4rem;
+  }
+
+  .active {
+    border-bottom: 1px solid red;
   }
 }
 
 @media screen and (min-width: 992px) {
   #menu a:hover {
+    color: pink;
+  }
+
+  .active {
     border-bottom: 1px solid red;
   }
 }
