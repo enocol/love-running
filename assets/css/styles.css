@@ -36,6 +36,7 @@ header {
   box-shadow: 0 2px 2px #3a3a3a;
   padding: 5px;
   top: 0;
+  z-index: 99;
 }
 
 nav {
@@ -72,6 +73,7 @@ main {
   height: 600px;
   width: 100%;
   background: url('../images/hero-image.webp') no-repeat center center/cover;
+  position: relative;
 }
 
 footer {
@@ -96,6 +98,16 @@ footer {
 
 .socials i {
   color: black;
+}
+
+.text {
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  background-color: rgba(213, 200, 120, 0.5);
+  width: 80%;
+  padding: 10px;
+  min-height: 200px;
 }
 
 @media screen and (min-width: 768px) {
