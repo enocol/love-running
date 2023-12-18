@@ -9,7 +9,9 @@
 body {
   font-family: 'lato', sans-serif;
 }
-h1 {
+h1,
+h2,
+h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #252525;
@@ -66,7 +68,7 @@ nav {
 
 main {
   min-height: 100vh;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 #hero {
@@ -84,7 +86,7 @@ footer {
   justify-content: center;
   position: fixed;
   bottom: 0;
-  height: 50px;
+  height: 40px;
 }
 
 .socials {
@@ -111,6 +113,18 @@ footer {
   min-height: 180px;
   font-size: 2rem;
   border-radius: 10px;
+}
+
+.reason {
+  padding: 15px;
+}
+
+.reason > h2 {
+  text-align: center;
+}
+
+.benefits p {
+  padding: 5px 0 5px 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,7 +176,7 @@ footer {
 
   .text {
     width: 50%;
-    bottom: 10px;
+    bottom: 0px;
   }
 }
 
