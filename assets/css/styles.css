@@ -25,7 +25,7 @@ h3 {
 }
 
 #menu li {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 header {
@@ -111,8 +111,9 @@ footer {
   padding-top: 10px;
   padding-left: 10px;
   min-height: 180px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 10px;
+  color: #fff;
 }
 
 .reason {
@@ -125,6 +126,11 @@ footer {
 
 .benefits p {
   padding: 5px 0 5px 5px;
+  text-align: justify;
+}
+
+.active {
+  border-bottom: 1px solid red;
 }
 
 @media screen and (min-width: 768px) {
