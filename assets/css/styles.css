@@ -161,14 +161,8 @@ footer {
   }
 
   .text {
-    bottom: 40px;
-    right: 10%;
-    background-color: rgba(241, 109, 107, 0.7);
-    width: 30%;
-    padding-top: 10px;
-    padding-left: 10px;
-    min-height: 180px;
-    font-size: 2rem;
+    width: 50%;
+    bottom: 10px;
   }
 }
 
@@ -179,5 +173,10 @@ footer {
 
   .active {
     border-bottom: 1px solid red;
+  }
+
+  .text {
+    width: 30%;
+    bottom: 40px;
   }
 }
