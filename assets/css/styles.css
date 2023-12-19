@@ -104,16 +104,15 @@ footer {
 
 .text {
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   right: 15%;
   background-color: rgba(241, 109, 107, 0.7);
   width: 80%;
-  padding-top: 10px;
+  padding: 10px;
   padding-left: 10px;
-  min-height: 180px;
+  min-height: 200px;
   font-size: 1.5rem;
   border-radius: 10px;
-  color: #fff;
 }
 
 .reason {
@@ -131,6 +130,10 @@ footer {
 
 .active {
   border-bottom: 1px solid red;
+}
+
+.text > h2, .text > h3 {
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -181,9 +184,13 @@ footer {
   }
 
   .text {
-    width: 50%;
-    bottom: 0px;
+    width: 30%;
+    bottom: 0;
+    right: 0;
+    min-height: 150px;
   }
+
+ 
 }
 
 @media screen and (min-width: 992px) {
@@ -193,10 +200,5 @@ footer {
 
   .active {
     border-bottom: 1px solid red;
-  }
-
-  .text {
-    width: 30%;
-    bottom: 40px;
   }
 }
