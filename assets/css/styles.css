@@ -105,13 +105,12 @@ footer {
 .text {
   position: absolute;
   bottom: 10px;
-  right: 15%;
+  left: 1%;
   background-color: rgba(241, 109, 107, 0.7);
-  width: 80%;
+  max-width: 200px;
   padding: 10px;
-  padding-left: 10px;
   min-height: 200px;
-  font-size: 1.5rem;
+  font-size: 150%;
   border-radius: 10px;
 }
 
@@ -125,7 +124,6 @@ footer {
 
 .benefits p {
   padding: 5px 0 5px 5px;
-  text-align: justify;
 }
 
 .active {
@@ -150,6 +148,12 @@ footer {
  display: flex;
  justify-content: center;
  align-items: center;
+ padding-top: 10px;
+ 
+}
+
+#circled-cover-bg {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,13 +204,28 @@ footer {
   }
 
   .text {
-    width: 30%;
+    min-width: 30%;
     bottom: 0;
-    right: 0;
+    left: 70%;
     min-height: 150px;
+    font-size: 150%;
   }
 
- 
+  .benefit-physical, .benefit-mental{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .benefit-mental > div, .benefit-physical > div{
+    width: 75%;
+  }
+
+  .benefit-mental > div {
+    text-align: end;
+    align-self: flex-end;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -217,4 +236,37 @@ footer {
   .active {
     border-bottom: 1px solid red;
   }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .benefits {
+    display: flex;
+    flex-direction: row;
+  
+  }
+
+  .benefits > div {
+    flex: 1;
+  }
+
+  #benefit-image {
+   order: 0;
+  }
+
+  .benefit-mental {
+    order: 1;
+  }
+
+  .benefit-mental > div {
+    align-self: flex-start;
+    margin: 10px;
+  }
+
+  .benefit-physical > div {
+    align-self: flex-end;
+    margin: 20px;
+  }
+  
 }
