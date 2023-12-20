@@ -183,6 +183,11 @@ footer {
   color: #fafafa;
 }
 
+#run-times > div:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
 
 @media screen and (min-width: 768px) {
   nav {
