@@ -175,6 +175,7 @@ footer {
  flex-basis: 200px;
  flex-grow: 1;
  border: 2px solid #fafafa;
+ border-radius: 10px;
  
 }
 
@@ -186,6 +187,15 @@ footer {
 #run-times > div:hover {
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
+}
+
+#photos > img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+line-height: 0;
 }
 
 
@@ -257,6 +267,11 @@ footer {
   .benefit-mental > div {
     text-align: end;
     align-self: flex-end;
+  }
+
+  #photos {
+   column-count: 3;
+   column-gap: 0;
   }
 
 }
