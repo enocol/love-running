@@ -199,6 +199,15 @@ line-height: 0;
 }
 
 
+@media screen and (min-width: 570px){
+  
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+
+
 @media screen and (min-width: 768px) {
   nav {
     width: 50%;
@@ -315,6 +324,11 @@ line-height: 0;
   .benefit-physical > div {
     align-self: flex-end;
     margin: 20px;
+  }
+
+  #photos {
+    column-count: 4;
+    column-gap: 0;
   }
   
 }
