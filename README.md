@@ -6,7 +6,7 @@
 
   <br/>
 
-  <h3><b>Mobile First Project</b></h3>
+  <h3><b>Love Running Project</b></h3>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 # Love Running <a name="about-project">Love Running</a>
 
-**Love Runing** is a HTML/Css project of a Software developer for all screen (Responsiveness)
+**Love Runing** is a HTML/Css website project for a Running Club for all screen (Responsiveness)
 
 ## 🛠 Built With <a name="built-with">Visual Studio</a>
 
