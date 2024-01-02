@@ -1,39 +1,170 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+<a name="readme-top"></a>
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<div align="center">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+  <br/>
 
-## Codeanywhere Reminders
+  <h3><b>Mobile First Project</b></h3>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+</div>
 
-`python3 -m http.server`
+# 📗 Table of Contents
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+# Love Running <a name="about-project">Love Running</a>
 
-`http_server`
+**Love Runing** is a HTML/Css project of a Software developer for all screen (Responsiveness)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## 🛠 Built With <a name="built-with">Visual Studio</a>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Tech Stack <a name="tech-stack">HTML/Css</a>
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+  </ul>
+</details>
 
-To log into the Heroku toolbelt CLI:
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Key Features <a name="key-features">Mobile View of Portfolio site</a>
 
----
+- **Mobile View of Love Running site**
+- **Contact form**
+- **Desktop View of Love Running site**
+- **Validate contact form**
 
-Happy coding!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://enocol.github.io/love-running/)
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- You need to have NodeJS installed
+- A Web Browser (Google Chrome, Firefox, etc)
+- A Code Editor (Notepad++, VSCode, etc)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+git clone yourlink repo https://github.com/enocol/love-running/
+
+cd your folder name
+```
+
+### Install
+
+Install this project with:
+
+```
+npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+Double-click on the index file (index.html)
+
+### Run tests
+
+To run tests, run the following command:
+
+N/A
+
+### Deployment
+
+You can deploy this project using:
+
+Deploy this project on any websever
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Enoh Collins**
+
+- GitHub: [@githubhandle](https://github.com/enocol)
+- link: https://enocol.github.io/
+- link (Loom video of the project): (https://www.loom.com/share/b1ee1c8b25e94384b80e7fec56521117?sid=973cba13-086c-4d1b-b4fe-03d1cc11e9f8)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give me a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank every who continues supporting me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
